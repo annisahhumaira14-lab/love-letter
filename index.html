@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Kamu ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="audio/lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="page active" id="page0">
+        <div class="glass-card">
+            <h1 id="text0"></h1>
+            <button onclick="startWebsite()">Klik aku 💕</button>
+        </div>
+    </div>
+
+    <div class="page" id="page1">
+        <div class="glass-card">
+            <p id="text1"></p>
+            <button onclick="nextPage()">Lanjut</button>
+        </div>
+    </div>
+
+    <div class="page" id="page2">
+        <div class="glass-card">
+            <p id="text2"></p>
+            <button onclick="nextPage()">Lanjut</button>
+        </div>
+    </div>
+
+    <div class="page" id="page3">
+        <div class="glass-card">
+            <p id="text3"></p>
+            <button onclick="nextPage()">Lanjut</button>
+        </div>
+    </div>
+
+    <div class="page star-bg" id="page4">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        
+        <div class="long-text-box">
+            <div id="typingLongText"></div>
+            <p class="penutup">terima kasihh selalu ada.. ✨</p>
+        </div>
+    </div>
+
+    <div class="page heart-page" id="heartPage">
+        <div class="space-bg"></div>
+
+        <div id="heartText"></div>
+
+        <div class="heart-message" id="heartMessage">
+            <p>I will always be here.</p>
+            <p>Thank you for every effort you've made for me.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
